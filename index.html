@@ -3,10 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/csmjustyle.css">
+    <title>HTML101</title>
   </head>
   <body>
-    <div>
+    <div class="oswald">
       <header>
         <h1>Hello HTML101</h1>
       </header>
@@ -14,19 +18,20 @@
         Navigation Area
         <ul>
           <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
+          <li><a href="/about.html">About</a></li>
           <li><a href="/contact">Contact</a></li>
           <li><a href="/services">Services</a></li>
         </ul>
       </nav>
       <div>
-        Hi Main Content Area
+        Hi 
+        Main Content Area
         <p>This is a paragraph inside the main content area.</p>
-        <h2>คณะวิทยาศาสตร์</h2>
-        <p>สาขาวิชาวิทยาการคอมพิวเตอร์</p>
+        <h2 class="csmju-text">คณะวิทยาศาสตร์</h2>
+        <p class="csmju-text">สาขาวิชาวิทยาการคอมพิวเตอร์</p>
         <img src="https://picsum.photos/200" alt="รูปภาพ" />
-        <h3>ตารางรายชื่อนักศึกษา</h3>
-        <table border="1">
+        <h3 class="csmju-text">ตารางรายชื่อนักศึกษา</h3>
+        <table border="1" class="csmju-text" >
           <thead>
             <tr>
               <th>รหัสนักศึกษา</th>
@@ -34,7 +39,7 @@
               <th>สาขา</th>
             </tr>
           </thead>
-          <body>
+          <tbody>
             <tr>
               <td>123456789</td>
               <td>นายสมชาย ใจดี</td>
@@ -45,7 +50,7 @@
               <td>นางสาวสมหญิง ใจดี</td>
               <td>วิทยาการคอมพิวเตอร์</td>
             </tr>
-          </body>
+          </tbody>
         </table>
         <h3>ข่าวทั้งหมด</h3>
         <div>
